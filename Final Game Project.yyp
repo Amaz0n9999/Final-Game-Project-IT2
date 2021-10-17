@@ -16,6 +16,7 @@
     {"id":{"name":"sEnemyR","path":"sprites/sEnemyR/sEnemyR.yy",},"order":11,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":5,},
+    {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
