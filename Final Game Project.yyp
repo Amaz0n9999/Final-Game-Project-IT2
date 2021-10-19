@@ -29,6 +29,7 @@
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":0,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":6,},
     {"id":{"name":"tTiles","path":"tilesets/tTiles/tTiles.yy",},"order":0,},
+    {"id":{"name":"oEnemyBig","path":"objects/oEnemyBig/oEnemyBig.yy",},"order":11,},
     {"id":{"name":"sDirt","path":"sprites/sDirt/sDirt.yy",},"order":17,},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":8,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":4,},
