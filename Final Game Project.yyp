@@ -2,7 +2,10 @@
   "resources": [
     {"id":{"name":"footstep4","path":"sounds/footstep4/footstep4.yy",},"order":6,},
     {"id":{"name":"footstep2","path":"sounds/footstep2/footstep2.yy",},"order":4,},
+    {"id":{"name":"oEbullet","path":"objects/oEbullet/oEbullet.yy",},"order":13,},
+    {"id":{"name":"sEbullet","path":"sprites/sEbullet/sEbullet.yy",},"order":20,},
     {"id":{"name":"sPlayerW","path":"sprites/sPlayerW/sPlayerW.yy",},"order":5,},
+    {"id":{"name":"sEgun","path":"sprites/sEgun/sEgun.yy",},"order":19,},
     {"id":{"name":"rTwo","path":"rooms/rTwo/rTwo.yy",},"order":1,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":3,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":3,},
@@ -26,6 +29,7 @@
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":5,},
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
+    {"id":{"name":"oEgun","path":"objects/oEgun/oEgun.yy",},"order":12,},
     {"id":{"name":"oDead","path":"objects/oDead/oDead.yy",},"order":6,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"sGun","path":"sprites/sGun/sGun.yy",},"order":4,},
