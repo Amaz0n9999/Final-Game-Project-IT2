@@ -20,6 +20,7 @@
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},"order":14,},
     {"id":{"name":"snLanding","path":"sounds/snLanding/snLanding.yy",},"order":1,},
     {"id":{"name":"sSign","path":"sprites/sSign/sSign.yy",},"order":23,},
+    {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":16,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},"order":7,},
