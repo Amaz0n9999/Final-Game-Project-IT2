@@ -15,10 +15,10 @@ else
 //Calculate Movement
 var _move = key_right - key_left;
 
-hsp = _move * walksp;
-
-vsp = vsp + grv;
-
+hsp = (_move * walksp) + gunkickx;
+gunkickx = 0;
+vsp = (vsp + grv) + gunkicky;
+gunkicky = 0;
 //Jumping
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
