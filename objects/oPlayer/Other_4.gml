@@ -1,7 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 6E46BC7A
-/// @DnDArgument : "code" "/// @desc Auto Save$(13_10)$(13_10)//Overwrite old save$(13_10)if (file_exists(SAVEFILE)) file_delete(SAVEFILE);$(13_10)$(13_10)//Create new save$(13_10)var file;$(13_10)file = file_text_open_write(SAVEFILE);$(13_10)file_text_write_real(file,room);$(13_10)file_text_write_real(file,global.kills);$(13_10)file_text_write_real(file,global.hasgun);$(13_10)file_text_close(file);"
 /// @desc Auto Save
 
 //Overwrite old save
