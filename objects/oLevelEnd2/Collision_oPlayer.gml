@@ -5,6 +5,6 @@ with (oPlayer)
 	if (hascontrol)
 	{
 		hascontrol = false;
-		SlideTransition(TRANS_MODE.GOTO,rEnding);
+		SlideTransition(TRANS_MODE.GOTO,rEnding2); 
 	}
 }
