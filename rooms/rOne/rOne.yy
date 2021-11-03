@@ -16,8 +16,6 @@
     {"instances":[],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Bullets","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oGunPickup","path":"objects/oGunPickup/oGunPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":672.0,"resourceVersion":"1.0","name":"inst_33CFA0CE","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oEgun","path":"objects/oEgun/oEgun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1568.0,"y":864.0,"resourceVersion":"1.0","name":"inst_53FE71B8","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oEgun","path":"objects/oEgun/oEgun.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3776.0,"y":736.0,"resourceVersion":"1.0","name":"inst_B3F1AC6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGlockPickup","path":"objects/oGlockPickup/oGlockPickup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":864.0,"resourceVersion":"1.0","name":"inst_5F0F3D83","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Gun","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
@@ -547,8 +545,6 @@
     {"name":"inst_40FC85E6","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_15D90EF1","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_33CFA0CE","path":"rooms/rOne/rOne.yy",},
-    {"name":"inst_53FE71B8","path":"rooms/rOne/rOne.yy",},
-    {"name":"inst_B3F1AC6","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_68637C3E","path":"rooms/rOne/rOne.yy",},
     {"name":"inst_5F0F3D83","path":"rooms/rOne/rOne.yy",},
   ],
