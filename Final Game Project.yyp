@@ -27,6 +27,7 @@
     {"id":{"name":"oGlock","path":"objects/oGlock/oGlock.yy",},"order":20,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sGlock","path":"sprites/sGlock/sGlock.yy",},"order":30,},
+    {"id":{"name":"oBullet1","path":"objects/oBullet1/oBullet1.yy",},"order":22,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sTile","path":"sprites/sTile/sTile.yy",},"order":6,},
     {"id":{"name":"sHitSparkStrip","path":"sprites/sHitSparkStrip/sHitSparkStrip.yy",},"order":27,},
