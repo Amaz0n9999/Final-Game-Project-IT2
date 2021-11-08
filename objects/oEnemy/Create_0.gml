@@ -7,3 +7,4 @@ if (hasweapon)
 	}
 }
 else mygun = noone;
+global.losehp = false;

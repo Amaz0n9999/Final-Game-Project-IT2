@@ -1,3 +1,4 @@
+if (hp = hp - 1) global.losehp = true
 if (hp <= 0)
 
 {

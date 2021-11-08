@@ -2,14 +2,22 @@ x = owner.x;
 y = owner.y + 10;
 image_xscale = abs(owner.image_xscale);
 image_yscale = abs(owner.image_yscale);
+firingdelay = firingdelay - 1;
+recoil = max(0,recoil - 1);
 
 if (instance_exists(oPlayer))
 {
+	
 	if (oPlayer.x < x) image_yscale = -image_yscale;
 	if (point_distance(oPlayer.x,oPlayer.y,x,y) < 600)
 	{
 	    image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
 	    countdown--;
+		if (global.losehp = true) && (firingdelay < 0)
+	    {
+		    firingdelay = 15;
+		    recoil = 4;
+	    }
 		if (countdown <= 0)
 		{
 		        countdown = countdownrate;
@@ -19,7 +27,7 @@ if (instance_exists(oPlayer))
 				    audio_play_sound(snShot,5,false);
 				    with (instance_create_layer(x,y,"Bullets",oEbullet))
                     {
-				        spd = 10;
+				        speed = 10;
 				        direction = other.image_angle + random_range(-3,3);
 				        image_angle = direction;
 			        }
