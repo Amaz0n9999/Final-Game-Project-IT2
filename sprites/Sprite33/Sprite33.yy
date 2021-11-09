@@ -25,7 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"697f7912-4337-4113-892c-dd903da81c83","path":"sprites/Sprite33/Sprite33.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":null,"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"697f7912-4337-4113-892c-dd903da81c83","path":"sprites/Sprite33/Sprite33.yy",},"LayerId":{"name":"d9a53120-08c7-4b25-be2d-88a641100d23","path":"sprites/Sprite33/Sprite33.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"Sprite33","path":"sprites/Sprite33/Sprite33.yy",},"resourceVersion":"1.0","name":"697f7912-4337-4113-892c-dd903da81c83","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
