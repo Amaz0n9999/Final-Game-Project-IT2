@@ -19,6 +19,11 @@ hsp = (_move * walksp) + gunkickx;
 gunkickx = 0;
 vsp = (vsp + grv) + gunkicky;
 gunkicky = 0;
+if (global.collisionwall = true)
+{
+	hsp = 0;
+	vsp = 0;
+}
 //Jumping
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
