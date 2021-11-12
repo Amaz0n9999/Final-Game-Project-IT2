@@ -1,9 +1,5 @@
-/// @DnDAction : YoYo Games.Common.Execute_Code
-/// @DnDVersion : 1
-/// @DnDHash : 13533DAC
-/// @DnDArgument : "code" "var dir = argument0;$(13_10)var dir = argument1;$(13_10)$(13_10)if (dir == 0)$(13_10){$(13_10)	//Horizontal$(13_10)	//Bottom Ebullet$(13_10)	s = instance_create_depth(x,y+(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 270;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Left Ebullet$(13_10)	s = instance_create_depth(x-(sprite_width/2),y,0,oEbullet);$(13_10)	s.direction = 180;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Top Ebullet$(13_10)	s = instance_create_depth(x,y-(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 90;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Right Ebullet$(13_10)	s = instance_create_depth(x+(sprite_width/2),y,0,oEbullet);$(13_10)	s.direction = 0;$(13_10)	s.speed = spd;$(13_10)}$(13_10)else if (dir == 1)$(13_10){$(13_10)	//Vertical$(13_10)	//Bottom Ebullet$(13_10)	s = instance_create_depth(x+(sprite_width/2),y+(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 315;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Left Ebullet$(13_10)	s = instance_create_depth(x-(sprite_width/2),y+(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 225;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Top Ebullet$(13_10)	s = instance_create_depth(x-(sprite_width/2),y-(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 135;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	//Right Ebullet$(13_10)	s = instance_create_depth(x+(sprite_width/2),y-(sprite_height/2),0,oEbullet);$(13_10)	s.direction = 45;$(13_10)	s.speed = spd;$(13_10)	$(13_10)	$(13_10)}	$(13_10)	"
 var dir = argument0;
-var dir = argument1;
+var spd = argument1;
 
 if (dir == 0)
 {
