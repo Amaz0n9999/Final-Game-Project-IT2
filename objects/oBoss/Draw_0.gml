@@ -1,1 +1,9 @@
-draw_sprite_ext(sprite_index,image_index,x,y+z,1,1,image_angle,c_white,1);
+draw_self();
+
+if (flash > 0)
+{
+	flash = flash - 1;
+	shader_set(shWhite);
+	draw_self();
+	shader_reset();
+}

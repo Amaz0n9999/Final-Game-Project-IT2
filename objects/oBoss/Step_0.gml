@@ -1,23 +1,9 @@
 //Moving angle of boss
 image_angle += (angleTarget - image_angle) * 0.1;
 
-//Movement code
-if (move == 1)
-{
-	if (y <= -128)
-	{
-		vspeed = 0;
-		place = choose(0,1,2,3);
-	}
-	else
-	{
-		if (vspeed != -upSpd)
-			vspeed = -upSpd;
-	}
-}
 
 #region //Bobbing Effect
-if (vspeed == 0)
+if (vspeed == 0 && move != 2 && move != 3)
 {
 	if (dir_c >= 2)
 	{
